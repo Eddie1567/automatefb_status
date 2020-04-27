@@ -5,15 +5,15 @@ from time import sleep
 from selenium.webdriver.chrome.options import Options
 
 print('What\'s the message, Sir !')
-msg = input() # Put your status here.
+msg = input('This is posted by a bot.') # Put your status here.
 options = Options()
 options.add_argument("--disable-notifications")
 browser = webdriver.Chrome(chrome_options=options)
 browser.maximize_window()
 browser.get('https://www.facebook.com')
 
-browser.find_element_by_id('email').send_keys('***********') # Your email id
-browser.find_element_by_id('pass').send_keys('*************') # Your password
+browser.find_element_by_id('email').send_keys('syed.nlp00@gmail.com') # Your email id
+browser.find_element_by_id('pass').send_keys('Syedjia03') # Your password
 browser.find_element_by_id('loginbutton').click()
 
 browser.find_element_by_id('u_ps_0_6_1').click()
