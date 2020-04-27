@@ -12,8 +12,8 @@ browser = webdriver.Chrome(chrome_options=options)
 browser.maximize_window()
 browser.get('https://www.facebook.com')
 
-browser.find_element_by_id('email').send_keys('syed.nlp00@gmail.com') # Your email id
-browser.find_element_by_id('pass').send_keys('Syedjia03') # Your password
+browser.find_element_by_id('email').send_keys('***********') # Your email id
+browser.find_element_by_id('pass').send_keys('************') # Your password
 browser.find_element_by_id('loginbutton').click()
 
 browser.find_element_by_id('u_ps_0_6_1').click()
